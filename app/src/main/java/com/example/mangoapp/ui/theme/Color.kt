@@ -6,6 +6,7 @@ val Purple0 = Color(28, 27, 51)
 val Purple1 = Color(46, 51, 88)
 val Purple2 =Color(59, 38, 123, 70)
 val Purple3 =Color(49, 43, 91)
+val grey =Color(0xffebebf5)
 
 val basePurple0d = Color(82, 78, 119)
 val basePurple1d = Color(105, 101, 137)
