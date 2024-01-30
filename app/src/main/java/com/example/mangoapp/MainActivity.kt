@@ -30,4 +30,7 @@ class MainActivity : ComponentActivity() {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
+    MangoAppTheme(darkTheme = true){
+        SetupNavGraph(navController = rememberNavController())
+    }
 }

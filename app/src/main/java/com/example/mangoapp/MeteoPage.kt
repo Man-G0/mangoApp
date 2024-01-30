@@ -52,12 +52,7 @@ import com.example.mangoapp.ui.theme.grey
 @Composable
 fun MeteoPage(cityName : String?, temp: Int?, meteo:String?,hightemp : Int?, lowtemp:Int?,navController: NavHostController) {
     var grad = Brush.verticalGradient(listOf(Purple0, Purple1))
-    /*when(cityMeteo.meteo.lowercase()){
-        "cloudy" -> iconMet = R.drawable.sun_cloud_angled_rain
-        "fast wind" -> iconMet = R.drawable.moon_cloud_fast_wind
-        "mid rain" -> iconMet = R.drawable.moon_clou_id_rain
-        "thunderstorm" -> iconMet = R.drawable.cloud_3_zap
-    }*/
+
     Box(
         Modifier
             .fillMaxSize()
@@ -93,8 +88,7 @@ fun MeteoPage(cityName : String?, temp: Int?, meteo:String?,hightemp : Int?, low
                 im,
                 R.drawable.property_onepm,
                 R.drawable.property_twelvepm,
-                R.drawable.property_oneam,
-                R.drawable.property_twelvepm,
+                R.drawable.property_oneam
 
             )
             Spacer(Modifier.height(70.dp))
